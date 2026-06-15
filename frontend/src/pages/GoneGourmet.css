@@ -1,0 +1,112 @@
+.gone-gourmet-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #17a697 0%, #16a085 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.selection-section {
+  padding: 30px 20px;
+}
+
+.section-title {
+  background: linear-gradient(135deg, #ffa94d 0%, #ff9a56 100%);
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.dropdown-group {
+  margin-bottom: 16px;
+}
+
+.dropdown-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropdown-select:hover {
+  border-color: #17a697;
+}
+
+.dropdown-select:focus {
+  outline: none;
+  border-color: #17a697;
+  box-shadow: 0 0 0 3px rgba(23, 166, 151, 0.1);
+}
+
+.error-message {
+  background: #ffe0e0;
+  color: #c33;
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  border-left: 4px solid #ff6b6b;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #17a697 0%, #16a085 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(23, 166, 151, 0.3);
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submit-button:active:not(:disabled) {
+  transform: translateY(0);
+}
